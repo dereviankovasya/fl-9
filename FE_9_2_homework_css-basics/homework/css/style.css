@@ -1,0 +1,139 @@
+/* 
+
+write your code here
+
+*/
+
+
+/* Прінт версія. P.S. сорі за гавнокод :( */
+
+@media print {
+	.tm-sidebar,
+	section+section,
+	#about {
+		display: none;
+	}
+	.tm-main-content {
+		margin-left: 0;
+	}
+	.tm-banner {
+		max-height: 250px;
+	}
+	.tm-team-description-container {
+		margin: -40px 0 -175px -60px;
+	}
+	.tm-section-description+p {
+		width: 550px;
+	}
+	h2.tm-section-title {
+		color: blue;
+	}
+	.flex-2-col {
+		flex-direction: column;
+	}
+	div.tm-sidebar,
+	div.tm-content-box {
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.60);
+	}
+	section {
+		border: none;
+	}
+	.pad {
+		padding: 0;
+	}
+}
+
+
+/*normal */
+
+ul.boxes.gallery-container li.box a img {
+	border-radius: 100%;
+}
+
+div.tm-content-box,
+div.tm-sidebar {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.60);
+}
+
+ul.boxes.gallery-container li.box.box-bg:hover {
+	background-color: #32b6de;
+}
+
+h2.tm-section-title-box {
+	font-size: 50px;
+}
+
+h2.tm-section-title-box:hover {
+	color: white;
+	font-weight: bold;
+}
+
+p:first-letter {
+	color: #76cdd7;
+	font-size: 30px;
+}
+
+section::before {
+	content: "";
+	height: 0px;
+	width: 0px;
+	border-top: 30px solid #32b5de;
+	border-right: 130px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 0px solid transparent;
+}
+
+#tmCarousel h2.tm-section-title {
+	color: gainsboro;
+	letter-spacing: 5px;
+}
+
+h2+p {
+	font-style: italic;
+}
+
+section p {
+	line-height: 1.6;
+	text-indent: 20px;
+}
+
+.pad a:visited {
+	color: silver;
+}
+
+.pad a:hover {
+	color: blue;
+	text-decoration: underline;
+	text-decoration-style: double;
+}
+
+.pad a.text::after {
+	content: "New";
+	color: red;
+	vertical-align: super;
+	font-size: 12px;
+}
+
+div.mandatory-field::after {
+	content: "*";
+	color: red;
+	font-weight: bold;
+}
+
+section.blocks ul.gallery-container li.box:nth-child(2n+1) {
+	background-color: rgba(151, 156, 160, 0.2);
+}
+
+nav.tm-main-nav li:not(:last-child) {
+	border-bottom: 2px dotted silver;
+}
+
+form.contact-form input,
+form.contact-form button {
+	color: red;
+}
+
+form.contact-form button:hover {
+	background-color: #32B6DE;
+	color: white;
+}
