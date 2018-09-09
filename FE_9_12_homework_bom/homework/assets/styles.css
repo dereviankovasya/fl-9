@@ -1,0 +1,75 @@
+/* Your styles go here */
+body {
+	margin: 50px 0;
+}
+
+#root {
+	height: 500px;
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.form {
+	position: relative;
+	display: flex;
+	bottom: 0px;
+	height: 24px;
+	width: 100%;	
+}
+
+#add-button {
+	margin-left: 7px;
+	width: 150px;
+	border:1px solid black;
+	background-color: gray;
+	color:black;
+	margin:20px 30px 20px 220px;
+	padding:10px;
+	border-radius: 15px;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+#add-limit {
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+#text-input {
+	margin-left: 22px;
+	width: 85%;
+}
+
+.button_delete {
+	position: absolute;
+	right: 0;
+}
+
+button {
+	background: white;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+
+}
+
+ul {
+	margin: 20px 20px 10px 50px;
+}
+
+li {
+	line-height: 34px;
+	list-style-type: none;
+	position: relative;
+	height: 34px;
+	display: flex;
+	margin: 5px 5px 5px -30px;
+	font-size: 40px;
+}
